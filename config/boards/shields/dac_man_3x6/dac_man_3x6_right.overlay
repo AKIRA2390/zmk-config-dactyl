@@ -1,5 +1,4 @@
 #include "dac_man_3x6.dtsi"
-#include <dt-bindings/led/led.h>
 
 &default_transform {
     col-offset = <6>;
