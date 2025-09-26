@@ -15,7 +15,6 @@
 include:
   - board: stamp_c3
     shield: dac_man_3x6_left
-    snippet: studio-rpc-usb-uart
   - board: stamp_c3
     shield: dac_man_3x6_right
   - board: stamp_c3

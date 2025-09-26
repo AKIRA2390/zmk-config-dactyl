@@ -1,3 +1,4 @@
+#include <physical_layouts.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
@@ -5,9 +6,9 @@
 
 
 
-    layout_5x6_5: layout_5x6_5 {
+    layout_3x6: layout_3x6 {
         compatible = "zmk,physical-layout";
-        display-name = "5x6 5";
+        display-name = "3x6 5";
         kscan = <&kscan0>;
         transform = <&default_transform>;
         keys  //                     w   h    x    y     rot    rx    ry
@@ -65,8 +66,8 @@
             };
     position_map {
         compatible = "zmk,physical-layout-position-map";
-        layout_5x6_5 {
-            physical-layout = <&layout_5x6_5>;
+        layout_3x6 {
+            physical-layout = <&layout_3x6>;
             positions = <>;
         };
     };
