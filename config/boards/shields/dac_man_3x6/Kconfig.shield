@@ -1,0 +1,5 @@
+config SHIELD_DAC_MAN_3X6_LEFT
+    def_bool $(shields_list_contains,dac_man_3x6_left)
+
+config SHIELD_DAC_MAN_3X6_RIGHT
+    def_bool $(shields_list_contains,dac_man_3x6_right)
